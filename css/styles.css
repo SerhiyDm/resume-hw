@@ -25,7 +25,7 @@ p {
 }
 img {
     display: block;
-    min-width: 100%;
+    min-width: 99%;
     height: auto;
 }
 
