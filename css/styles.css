@@ -64,7 +64,7 @@ img {
   position: relative;
   display: flex;
   flex-direction: row-reverse;
-  min-height: 100vh;
+  min-height: 100%;
   max-width: 1600px;
   margin: 0 auto;
   background-color: #c2c9a9;
