@@ -88,6 +88,10 @@
     background: rgb(247, 255, 218);
     background: linear-gradient(0deg, rgba(247, 255, 218, 1) 50%, rgba(194, 201, 169, 1) 50%);
   }
+  .description-block-wraper >a {
+    display: inline-block;
+    padding: 7px 0;
+  }
   .description-block-wraper + .description-block-wraper {
     margin-top: 10px;
   }
