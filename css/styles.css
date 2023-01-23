@@ -64,7 +64,7 @@ img {
   position: relative;
   display: flex;
   flex-direction: row-reverse;
-  min-height: 100%;
+  min-height: 100vh;
   max-width: 1600px;
   margin: 0 auto;
   background-color: #c2c9a9;
@@ -199,8 +199,33 @@ main {
   }
  
   .sidebar {
-max-width: 350px;  }
+max-width: 400px;  
+}
+.work-experience-list__item + .work-experience-list__item {
+  margin-top: 20px;
+}
   h1 {
-    font-size: 3em;
+    font-size: 4em;
   }
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+p, a {
+  font-size: 1.1em;
+  letter-spacing: 0.03em;
+}
+main h2 {
+  margin-bottom: 20px;
+}
+.sidebar__contacts-link {
+  font-size: 1.5em;
+}
+img {
+  width: 300px;
+}
 } 
